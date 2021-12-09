@@ -1,0 +1,6 @@
+
+[
+  {"number":"1234567843215678", "name": "John Doe", "type":"visa", "expiry":"12/24", "cvc": "341"},
+  {"number":"0000567843215678", "name": "Jane Doe", "type":"master", "expiry":"10/24", "cvc": "141"},
+  {"number":"0000567843211111", "name": "Petar Petrovic", "type":"american", "expiry":"10/22", "cvc": "941"}
+]

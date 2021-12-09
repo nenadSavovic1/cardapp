@@ -1,0 +1,54 @@
+.slider {
+  position: fixed;
+  bottom: 15px;
+  margin-left: -17px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition: all 0.3s ease-out;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.slider.closed {
+  max-height: 0px;
+}
+
+.ModalOpen {
+  animation: openModal 0.4s ease-out forwards;
+}
+
+.fade {
+  animation: fade-in-keyframes 0.5s;
+}
+@keyframes fade-in-keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeOut {
+  animation: fade-out-keyframes 1s;
+}
+@keyframes fade-out-keyframes {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.my-card-layout {
+  background-image: url("./images/card-shape.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.custom-w {
+  width: 393px;
+  max-width: 400px;
+}
