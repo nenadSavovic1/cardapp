@@ -4,7 +4,6 @@ import useStore from "./stores/cardStore";
 import { getCards } from './utils';
 import CreditCard from './components/card/CreditCard';
 import AddCreditCardForm from './components/forms/AddCreditCardForm';
-import casumoLogo from './images/casumo-logo.svg'
 
 const Loading = () => (
   <div className="border bg-white-100 shadow rounded-md p-12 max-w-sm w-full mx-auto">
@@ -32,7 +31,6 @@ const App = () => {
   return (
     <div className="h-2/3 mt-20 flex justify-center items-center overflow-hidden ">
       <div className="custom-w rounded overflow-auto shadow-lg p-4 bg-gray-100 ">
-        <img src={casumoLogo} className="mb-2	" alt="company logo" />
         <p className="text-purple-700 font-extrabold text-3xl ">Your cards</p>
         <p className="mb-16 text-xs text-gray-600 ">Add, edit or delete your cards at anytime</p>
         {
